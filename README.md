@@ -10,7 +10,7 @@ This project analyzes the historical Titanic passenger dataset using a Logistic 
 1. **Data Inspection:** Explored the structural footprint and baseline shape of the raw Titanic dataset using pandas.
 2. **Custom Missing Value Imputation:**
    * **Embarked & Fare:** Researched historical records on Encyclopedia Titanica to manually fix missing embarkation and fare values for specific passengers by name.
-   * **Age:** Built a conditional subpopulation lookup loop that dynamically filled missing age values based on a passenger's specific title (e.g., Master, Miss, Mr, Mrs) instead of a flat dataset average.
+   * **Age:** Built a conditional subpopulation lookup loop that dynamically filled missing age values based on a passenger's specific title (e.g Master, Miss, Mr, Mrs) instead of a flat dataset average.
 3. **Model Comparison:** Evaluated model classification accuracy across two different categorical data approaches using a standard 80/20 train-test split.
 
 ## Key Performance Results
